@@ -1,0 +1,44 @@
+/* this is my portfolio css style page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #fce138;
+  --secondary-color: #8ea39e;
+  --tertiary-color: #4f79c5;
+}
+
+body {
+color: var(--tertiary-color);
+font-family: Helvetica, Arial, Sans-serif;
+}
+
+
+
+/* start hero */
+.hero {
+    background-image: url("../images/me-by-bay-flipped.jpg");
+    background-size: 99%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  /*  background-attachment: fixed; */
+    background-position: 80%;
+}
+
+.mission-statement {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+/* end hero */
