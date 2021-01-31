@@ -16,6 +16,52 @@ color: var(--tertiary-color);
 font-family: Helvetica, Arial, Sans-serif;
 }
 
+header {
+    padding: 20px 35px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;   
+    background-image: url("../images/flipped-hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+    }
+
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--tertiary-color);
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;    }
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+
 
 
 /* start hero */
@@ -42,3 +88,26 @@ font-family: Helvetica, Arial, Sans-serif;
   }
 
 /* end hero */
+
+#project-cards {
+    display: flex;
+    justify-content: center, space-between;
+    flex: 200;
+}
+
+#about-me {
+    margin-top 5px;
+}
+
+#projects {
+    margin-top: 5px;
+}
+
+#expertise {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contact-info {
+    background-color: var(--secondary-color);
+}
