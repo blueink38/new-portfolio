@@ -8,7 +8,7 @@
 :root {
   --primary-color: #fce138;
   --secondary-color: #8ea39e;
-  --tertiary-color: #4f79c5;
+  --tertiary-color: #193870;
 }
 
 body {
@@ -97,6 +97,7 @@ header nav ul li a {
 
 #about-me {
     margin-top 5px;
+    justify-content: end;
 }
 
 #projects {
@@ -104,8 +105,10 @@ header nav ul li a {
 }
 
 #expertise {
+    display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
+    justify-content: space-between;
 }
 
 #contact-info {
