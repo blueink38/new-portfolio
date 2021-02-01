@@ -89,10 +89,15 @@ header nav ul li a {
 
 /* end hero */
 
+
 #project-cards {
     display: flex;
     justify-content: center, space-between;
     flex: 200;
+}
+
+.card {
+    margin: 5px;
 }
 
 #about-me {
