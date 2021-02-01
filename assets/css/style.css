@@ -94,14 +94,17 @@ header nav ul li a {
     display: flex;
     justify-content: center, space-between;
     flex: 200;
+    flex-wrap: wrap;
 }
 
 .card {
     margin: 5px;
+    min-width: 12rem;
+    max-width: 18rem;
 }
 
 #about-me {
-    margin-top 5px;
+    margin-top: 5px;
     justify-content: end;
 }
 
