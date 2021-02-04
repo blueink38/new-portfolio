@@ -92,8 +92,7 @@ header nav ul li a {
 
 #project-cards {
     display: flex;
-    justify-content: center, space-between;
-    flex: 200;
+    flex: auto;
     flex-wrap: wrap;
 }
 
